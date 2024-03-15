@@ -8,6 +8,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="next" type="text/html" href="Guide.html" />
+  </head>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
     <title>Service Guarantees Citizenship!</title>
 </head>
   <body>
@@ -18,12 +25,20 @@
 
 <object data="Guide.html" type="application/html" width="800" height="1200">
     <p>
-      <a href="mypdf.pdf">I promise this isn't an attempt to Rick-Roll someone (but it would be really funny). </a>
+      <a href="Guide.html">I promise this isn't an attempt to Rick-Roll someone (but it would be really funny). </a>
     </p>
   </object>  
 
 <div id="flexbox">
-  <div>Would</div>
+  <div><body>
+    <button onclick="showMessage()">Would</button>
+    <p id="message"></p>
+    <script>
+      function showMessage() {
+        document.getElementById("message").innerHTML = "Yeah, I did this because I like challenges!";
+      }
+    </script>
+  </body></div>
   <div>You</div>
   <div>Like</div>
   <div>To</div>
