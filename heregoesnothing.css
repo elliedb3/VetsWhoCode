@@ -1,0 +1,77 @@
+body1 {
+    font-family:'Franklin Gothic Medium';
+    background-color: orange;
+    font-size: 24px;
+    align-self: auto;
+  }
+  
+body2 {
+    font-family: 'Times New Roman';
+    background-color: plum;
+    font-size: 20px;
+    align-self: auto;
+  }
+
+body3 {
+    font-family: 'Times New Roman';
+    background-color: blue;
+    font-size: 40px;
+    align-self: auto;
+  }
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    font-size: 36px;
+    align-self: auto;
+  }
+  
+h2 {
+    font-family: Helvetica;
+    color:black;
+    font-size: 18px;
+    align-self: auto;
+  }
+
+#flexbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space space-around;
+    flex-flow: column wrap;
+    width: 300px;
+    gap: 20px 5px;
+  }
+
+#flexbox > div {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px orange;
+    border-radius: 10px;
+    background-color: orange (220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      orange (0, 0, 0, 0.2),
+      orange (0, 0, 0, 0.2) 30%,
+      orange (0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px orange (255, 255, 255, 0.6),
+      inset -2px -2px 3px orange (0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: orange (255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px orange (255, 255, 255, 0.6),
+      inset 2px 2px 3px orange (0, 0, 0, 0.6);
+  }
+
+
+  
